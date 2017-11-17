@@ -5,15 +5,15 @@ import "./footer.css";
 const MINIMAL_ICONS = [
     {
       media: 'instagram',
-      link: 'https://instagram.com/rahrang'
+      link: 'https://www.instagram.com/theinfluentialgl/'
     },
     {
-      media: 'github',
-      link: 'https://github.com/rahrang'
+      media: 'facebook',
+      link: 'https://www.facebook.com/TheInfluentialGL'
     },
     {
-      media: 'linkedin',
-      link: 'https://linkedin.com/in/rahrang'
+      media: 'yelp',
+      link: 'https://www.yelp.com/biz/the-influential-grooming-lounge-portland'
     }
   ];
 
