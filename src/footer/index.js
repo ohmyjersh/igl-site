@@ -25,7 +25,7 @@ export default props => (
         iconColor={'black'}
         iconOpacity={0.75}
         iconSize={'1.5em'}
-        hoverColor={'#895FAD'}
+        hoverColor={'#ccc'}
         hoverOpacity={0.9}
         margin={{
             top: '10px',
