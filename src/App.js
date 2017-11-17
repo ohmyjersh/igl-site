@@ -1,29 +1,35 @@
 import React, { Component } from 'react';
+import {BrowserRouter as Router, Route} from 'react-router-dom';
+import routes from './routes';
 import Nav from './navigation';
-import ImageGallery from './imageGallery'
-import Book from './book';
 import Footer from './footer';
-import Contact from './contact';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
+      <Router>
       <div className="App">
-        <div class="container">
-        <header class="header">
+        <div className="container">
+        <header className="header">
           <Nav />
         </header>
-        <main class="main">
-          <Contact />
-          {/* <ImageGallery /> */}
-          {/* <Book /> */}
+        <main className="main">
+          {routes.map((route, index) => (
+            <Route
+              key={index}
+              path={route.path}
+              exact={route.exact}
+              component={route.component}
+            />
+          ))}
         </main>
-        <footer class="footer">
+        <footer className="footer">
           <Footer />
         </footer>
         </div>
       </div>
+      </Router>
     );
   }
 }

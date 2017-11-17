@@ -1,17 +1,17 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './nav.css';
 
 export default () => (
-    <nav class="flexContainer blueBackground">
-    <ul class="nav flexItem flexStart">
-        <li><a href="#">Influential Grooming Lounge</a></li>
+    <nav className="flexContainer blueBackground">
+    <ul className="nav flexContainer flexItem flexStart">
+        <li><Link to="/">Influential Grooming Lounge</Link></li>    
     </ul>
-    <ul class="nav flexContainer flexEnd">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Book Now!</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
+    <ul className="nav flexContainer flexEnd">   
+    <li><Link to="/about">About</Link></li>
+    <li><Link to="/book">Book</Link></li>
+    <li><Link to="/gallery">Gallery</Link></li>
+    <li><Link to="/contact">Contact</Link></li>
     </ul>
 </nav>
 )
