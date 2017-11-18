@@ -1,3 +1,3 @@
 import React from 'react';
-
-export default () => <div>contact</div>
+import "./contact.css";
+export default () => <div className="contactContainer"><div>contact</div></div>
