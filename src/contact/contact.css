@@ -1,8 +1,13 @@
 .contactContainer {
     background: #ffffff;
     display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: stretch;
     height:100%;
+}
+.contactContainer .map {
+    height:50%,;
+    width:50%;
+}
+
+.contactContainer .addressContainer {
+    flex: 3 0 auto;
 }
