@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './home';
 import About from './about';
 import ImageGallery from './imageGallery'
-import Book from './book';
+import Services from './services';
 import Contact from './contact';
 
 export default [
@@ -16,8 +16,8 @@ export default [
         component: () => <About />
     },
     {
-        path: '/book',
-        component: () => <Book />
+        path: '/services',
+        component: () => <Services />
     },    
     {
         path: '/gallery',
