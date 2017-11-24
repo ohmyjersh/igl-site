@@ -1,0 +1,33 @@
+.homeContainer {
+    display:flex;
+}
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.servicesContainer {
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .homeContainer {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .services {
+        width:95%;
+    }
+}
