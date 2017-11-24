@@ -1,5 +1,20 @@
 .footerContainer {
-    display: 'flex';
-    align-items: 'center';
-    justify-content: 'center';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
+
+.social {
+  margin: 0px 30px;
+}
+
+.contact {
+  margin: 0px 30px;
+  font-size:20px;
+}
+
+.link, .link:visited {
+  color: #000;
+  text-decoration: none;
+}
+

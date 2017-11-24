@@ -11,11 +11,11 @@ export default () => (
 );
 
 const Services = () => (
-<div>
-    <img style={{}} src={menu} />
+<div className="servicesContainer">
+    <img alt="services" className="services" src={menu} />
 </div>);
 
-const About = () => <div>
+const About = () => <div className="aboutContainer">
     <div>
         <p>
             At The Influential Grooming Lounge the client is our top priority. Our customers will be
@@ -45,6 +45,6 @@ const About = () => <div>
     </p>
     </div>
     <div>
-        <img src={icon} />
+        <img alt="icon" src={icon} />
         </div>
 </div>
