@@ -17,9 +17,13 @@ const MINIMAL_ICONS = [
     }
   ];
 
-
+const Contact = () => <div style={{flex:'1 0 0'}}>3262 NE Martin Luther King Jr Blvd, Portland, OR | 97212(503) 444-7928 </div>
 export default props => (
  <div className="footerContainer">
+  <div>
+    <Contact /> 
+  </div>
+    <div>
     <SocialMediaBar
         icons={MINIMAL_ICONS}
         iconColor={'black'}
@@ -40,5 +44,6 @@ export default props => (
             bottom: '3px'
         }}
     />
+    </div>
     </div>
     );

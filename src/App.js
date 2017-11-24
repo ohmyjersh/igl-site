@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {HashRouter as Router, Route} from 'react-router-dom';
-import routes from './routes';
-import Nav from './navigation';
+import Home from './home';
+import logo from './images/logo.png'
 import Footer from './footer';
 import './App.css';
 
@@ -12,17 +12,10 @@ class App extends Component {
       <div className="App">
         <div className="container">
         <header className="header">
-          <Nav />
+          <img style={{alignContent:'center'}} alt="logo" style={{width:'35%'}}src={logo} />
         </header>
         <main className="main">
-          {routes.map((route, index) => (
-            <Route
-              key={index}
-              path={route.path}
-              exact={route.exact}
-              component={route.component}
-            />
-          ))}
+          <Home />
         </main>
         <footer className="footer">
           <Footer />
