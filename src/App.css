@@ -55,10 +55,47 @@ body {
   text-align: center;
 }
 
+.header .logo {
+  width:35%;
+}
+
 .main {
   background-color: #ececec;
   flex: 1 0 auto;
   overflow-y: auto;
   padding: 1rem;
   -webkit-overflow-scrolling: touch;
+}
+
+@media only screen and (max-width: 800px) {
+  .homeContainer {
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .aboutContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 20px;
+      font-size: 15px;
+      text-align: center;
+  }
+
+  .services {
+      width:95%;
+  }
+
+  .icon {
+      width:60%
+  }
+
+  .header .logo {
+    width:50%;
+  }
+  
 }

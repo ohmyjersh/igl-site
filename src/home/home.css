@@ -16,6 +16,9 @@
     text-align: center;
 }
 
+.icon {
+    width:90%
+}
 
 
 @media only screen and (max-width: 800px) {
@@ -27,7 +30,22 @@
         flex-direction: column;
     }
 
+    .aboutContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+
     .services {
         width:95%;
     }
+
+    .icon {
+        width:60%
+    }
+    
 }

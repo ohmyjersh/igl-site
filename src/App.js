@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
         <div className="container">
         <header className="header">
-          <img alt="logo" style={{width:'35%'}}src={logo} />
+          <img alt="logo" className="logo "src={logo} />
         </header>
         <main className="main">
           <Home />
